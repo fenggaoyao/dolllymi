@@ -1,0 +1,31 @@
+{
+"name": "@dollymi/{{lowerCase name}}",
+"version": "0.0.0",
+"description": "do-{{name}} component",
+"main": "index.js",
+"module": "dist/{{lowerCase name}}.esm-bundler.js",
+"unpkg": "dist/{{lowerCase name}}.global.js",
+"jsdelivr": "dist/{{lowerCase name}}.global.js",
+"files":[
+"index.js",
+"dist"
+],
+"buildOptions": {
+"name": "Do{{properCase name}}",
+"formats": [
+"esm-bundler",
+"esm-browser",
+"cjs",
+"global"
+]
+},
+"author": "fenggaoyao@qq.com",
+"license": "MIT",
+"keywords": ["Dollymi"],
+"peerDependencies":{
+"vue":"3.1.1"
+},
+"devdependencies": {
+"@vue/test-utils":"^2.0.0-beta.3"
+}
+}

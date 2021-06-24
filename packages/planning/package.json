@@ -1,0 +1,31 @@
+{
+"name": "@dollymi/planning",
+"version": "0.0.0",
+"description": "do-planning component",
+"main": "index.js",
+"module": "dist/planning.esm-bundler.js",
+"unpkg": "dist/planning.global.js",
+"jsdelivr": "dist/planning.global.js",
+"files":[
+"index.js",
+"dist"
+],
+"buildOptions": {
+"name": "DoPlanning",
+"formats": [
+"esm-bundler",
+"esm-browser",
+"cjs",
+"global"
+]
+},
+"author": "fenggaoyao@qq.com",
+"license": "MIT",
+"keywords": ["Dollymi"],
+"peerDependencies":{
+"vue":"3.1.1"
+},
+"devdependencies": {
+"@vue/test-utils":"^2.0.0-beta.3"
+}
+}
