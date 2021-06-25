@@ -1,0 +1,31 @@
+{
+    "name": "@dollymi/shared",
+    "version": "0.0.0",
+    "description": "do-shared",
+    "main": "index.js",
+    "module": "dist/shared.esm-bundler.js",
+    "types": "dist/shared.d.ts",
+    "unpkg": "dist/shared.global.js",
+    "jsdelivr": "dist/shared.global.js",
+    "files": [
+        "index.js",
+        "dist"
+    ],
+    "buildOptions": {
+        "name": "DollymiShared",
+        "type": "library",
+        "entry": "src/index.ts",
+        "formats": [
+            "esm-bundler",
+            "esm-browser",
+            "cjs",
+            "global"
+        ]
+    },
+    "author": "fenggaoyao@qq.com",
+    "license": "MIT",
+    "keywords": ["Dollymi"],
+    "publishConfig": {
+        "access": "public"
+    }
+}

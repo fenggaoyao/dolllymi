@@ -1,0 +1,31 @@
+{
+"name": "@dollymi/{{lowerCase name}}",
+"version": "0.0.0",
+"description": "do-{{name}}",
+"main": "index.js",
+"module": "dist/{{lowerCase name}}.esm-bundler.js",
+"types": "dist/{{lowerCase name}}.d.ts",
+"unpkg": "dist/{{lowerCase name}}.global.js",
+"jsdelivr": "dist/{{lowerCase name}}.global.js",
+"files":[
+"index.js",
+"dist"
+],
+"buildOptions": {
+"name": "Dollymi{{properCase name}}",
+"type":"library",
+"entry": "install.ts",
+"formats": [
+"esm-bundler",
+"esm-browser",
+"cjs",
+"global"
+]
+},
+"author": "fenggaoyao@qq.com",
+"license": "MIT",
+"keywords": ["Dollymi"],
+"publishConfig": {
+"access": "public"
+}
+}

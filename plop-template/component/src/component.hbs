@@ -6,8 +6,11 @@
 
 <script>
   import { ref } from 'vue'
+  import { ElButton } from 'element-plus'
+  import 'element-plus/lib/theme-chalk/el-button.css'
   export default {
     name: 'Do{{properCase name}}',
+    components: { ElButton },
     props: {
     }
   }

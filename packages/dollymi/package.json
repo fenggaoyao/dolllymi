@@ -1,0 +1,34 @@
+{
+    "name": "dollymi",
+    "version": "0.0.0",
+    "description": "dollymi",
+    "main": "index.js",
+    "module": "dist/dollymi.esm-bundler.js",
+    "types": "dist/dollymi.d.ts",
+    "unpkg": "dist/dollymi.global.js",
+    "jsdelivr": "dist/dollymi.global.js",
+    "files": [
+        "index.js",
+        "dist"
+    ],
+    "buildOptions": {
+        "name": "Dollymi",
+        "type": "library",
+        "entry": "src/index.ts",
+        "formats": [
+            "esm-bundler",
+            "esm-browser",
+            "cjs",
+            "global"
+        ]
+    },
+    "author": "fenggaoyao@qq.com",
+    "license": "MIT",
+    "keywords": ["Dollymi"],
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@dollymi/shared": "^0.0.0"
+    }
+}

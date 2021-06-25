@@ -1,0 +1,36 @@
+{
+  "name": "@dollymi/dashboard",
+  "version": "0.0.0",
+  "description": "do-dashboard component",
+  "main": "index.js",
+  "module": "dist/dashboard.esm-bundler.js",
+  "unpkg": "dist/dashboard.global.js",
+  "jsdelivr": "dist/dashboard.global.js",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "buildOptions": {
+    "name": "DoDashboard",
+    "type": "component",
+    "entry": "install.js",
+    "formats": [
+      "esm-bundler",
+      "esm-browser",
+      "cjs",
+      "global"
+    ]
+  },
+  "author": "fenggaoyao@qq.com",
+  "license": "MIT",
+  "keywords": [
+    "Dollymi"
+  ],
+  "peerDependencies": {
+    "vue": "3.1.2"
+  },
+  "dependencies": {
+    "@dollymi/card": "^0.0.0",
+    "element-plus": "^1.0.2-beta.52"
+  }
+}

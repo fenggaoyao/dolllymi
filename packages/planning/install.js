@@ -1,7 +1,18 @@
 import Planning from './src/index.vue'
 
-Planning.install = app => {
-app.component(Planning.name, Planning)
+
+const components = [
+    Planning
+]
+const install = (app) => {
+    components.forEach(component => {
+        app.component(component.name, component)
+    })
 }
 
-export default Planning
+export {
+    Planning
+}
+export default {
+    install
+}

@@ -1,7 +1,16 @@
-import {{properCase name}} from './src/index.vue'
+import Do{{properCase name}} from './src/index.vue'
 
-{{properCase name}}.install = app => {
-app.component({{properCase name}}.name, {{properCase name}})
+const components = [
+Do{{properCase name}}
+]
+
+const install = (app) => {
+components.forEach(component => {
+app.component(component.name, component)
+})
 }
 
-export default {{properCase name}}
+export {
+Do{{properCase name}},
+install
+}

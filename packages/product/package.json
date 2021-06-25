@@ -1,31 +1,30 @@
 {
-"name": "@dollymi/product",
-"version": "0.0.0",
-"description": "do-product component",
-"main": "index.js",
-"module": "dist/product.esm-bundler.js",
-"unpkg": "dist/product.global.js",
-"jsdelivr": "dist/product.global.js",
-"files":[
-"index.js",
-"dist"
-],
-"buildOptions": {
-"name": "DoProduct",
-"formats": [
-"esm-bundler",
-"esm-browser",
-"cjs",
-"global"
-]
-},
-"author": "fenggaoyao@qq.com",
-"license": "MIT",
-"keywords": ["Dollymi"],
-"peerDependencies":{
-"vue":"3.1.1"
-},
-"devdependencies": {
-"@vue/test-utils":"^2.0.0-beta.3"
-}
+    "name": "@dollymi/product",
+    "version": "0.0.0",
+    "description": "do-product component",
+    "main": "index.js",
+    "module": "dist/product.esm-bundler.js",
+    "unpkg": "dist/product.global.js",
+    "jsdelivr": "dist/product.global.js",
+    "files": [
+        "index.js",
+        "dist"
+    ],
+    "buildOptions": {
+        "name": "DoProduct",
+        "type": "component",
+        "entry": "install.js",
+        "formats": [
+            "esm-bundler",
+            "esm-browser",
+            "cjs",
+            "global"
+        ]
+    },
+    "author": "fenggaoyao@qq.com",
+    "license": "MIT",
+    "keywords": ["Dollymi"],
+    "peerDependencies": {
+        "vue": "3.1.2"
+    }
 }

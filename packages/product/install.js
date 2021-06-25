@@ -1,7 +1,17 @@
 import Product from './src/index.vue'
 
-Product.install = app => {
-app.component(Product.name, Product)
+const components = [
+    Product
+]
+const install = (app) => {
+    components.forEach(component => {
+        app.component(component.name, component)
+    })
 }
 
-export default Product
+export {
+    Product
+}
+export default {
+    install
+}

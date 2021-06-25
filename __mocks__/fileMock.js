@@ -1,0 +1,1 @@
+module.exports = '测试文件存根';

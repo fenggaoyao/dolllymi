@@ -1,0 +1,30 @@
+{
+    "name": "@dollymi/machine",
+    "version": "0.0.0",
+    "description": "do-machine component",
+    "main": "index.js",
+    "module": "dist/machine.esm-bundler.js",
+    "unpkg": "dist/machine.global.js",
+    "jsdelivr": "dist/machine.global.js",
+    "files": [
+        "index.js",
+        "dist"
+    ],
+    "buildOptions": {
+        "name": "DoMachine",
+        "type": "component",
+        "entry": "install.js",
+        "formats": [
+            "esm-bundler",
+            "esm-browser",
+            "cjs",
+            "global"
+        ]
+    },
+    "author": "fenggaoyao@qq.com",
+    "license": "MIT",
+    "keywords": ["Dollymi"],
+    "peerDependencies": {
+        "vue": "3.1.2"
+    }
+}
