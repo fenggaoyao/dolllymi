@@ -1,5 +1,5 @@
 # DoProduct
-物料管理
+物料管理模块
 
 ## element-plus
 ```
