@@ -1,6 +1,6 @@
 {
     "name": "@dollymi/reactivity",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "do-reactivity",
     "main": "index.js",
     "module": "dist/reactivity.esm-bundler.js",
@@ -31,6 +31,6 @@
         "access": "public"
     },
     "dependencies": {
-        "@dollymi/shared": "^0.0.1"
+        "@dollymi/shared": "^0.0.2"
     }
 }
