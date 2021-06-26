@@ -1,6 +1,6 @@
 {
     "name": "@dollymi/planning",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "do-planning component",
     "main": "index.js",
     "module": "dist/planning.esm-bundler.js",

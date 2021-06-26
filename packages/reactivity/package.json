@@ -1,6 +1,6 @@
 {
     "name": "@dollymi/reactivity",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "do-reactivity",
     "main": "index.js",
     "module": "dist/reactivity.esm-bundler.js",
@@ -24,11 +24,13 @@
     },
     "author": "fenggaoyao@qq.com",
     "license": "MIT",
-    "keywords": ["Dollymi"],
+    "keywords": [
+        "Dollymi"
+    ],
     "publishConfig": {
         "access": "public"
     },
     "dependencies": {
-        "@dollymi/shared": "^0.0.0"
+        "@dollymi/shared": "^0.0.1"
     }
 }

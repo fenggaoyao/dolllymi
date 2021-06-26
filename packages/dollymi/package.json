@@ -1,6 +1,6 @@
 {
     "name": "dollymi",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "dollymi",
     "main": "index.js",
     "module": "dist/dollymi.esm-bundler.js",
@@ -24,16 +24,18 @@
     },
     "author": "fenggaoyao@qq.com",
     "license": "MIT",
-    "keywords": ["Dollymi"],
+    "keywords": [
+        "Dollymi"
+    ],
     "publishConfig": {
         "access": "public"
     },
     "dependencies": {
-        "@dollymi/shared": "^0.0.0",
-        "@dollymi/dashboard": "^0.0.0",
-        "@dollymi/machine": "^0.0.0",
-        "@dollymi/planning": "^0.0.0",
-        "@dollymi/product": "^0.0.0",
-        "@dollymi/reactivity": "^0.0.0"
+        "@dollymi/dashboard": "^0.0.1",
+        "@dollymi/machine": "^0.0.1",
+        "@dollymi/planning": "^0.0.1",
+        "@dollymi/product": "^0.0.1",
+        "@dollymi/reactivity": "^0.0.1",
+        "@dollymi/shared": "^0.0.1"
     }
 }

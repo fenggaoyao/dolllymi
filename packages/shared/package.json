@@ -1,6 +1,6 @@
 {
     "name": "@dollymi/shared",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "do-shared",
     "main": "index.js",
     "module": "dist/shared.esm-bundler.js",
@@ -24,7 +24,9 @@
     },
     "author": "fenggaoyao@qq.com",
     "license": "MIT",
-    "keywords": ["Dollymi"],
+    "keywords": [
+        "Dollymi"
+    ],
     "publishConfig": {
         "access": "public"
     }
