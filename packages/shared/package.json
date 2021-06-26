@@ -1,6 +1,6 @@
 {
     "name": "@dollymi/shared",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "do-shared",
     "main": "index.js",
     "module": "dist/shared.esm-bundler.js",

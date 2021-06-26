@@ -1,6 +1,6 @@
 {
     "name": "dollymi",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "dollymi",
     "main": "index.js",
     "module": "dist/dollymi.esm-bundler.js",
@@ -31,11 +31,11 @@
         "access": "public"
     },
     "dependencies": {
-        "@dollymi/dashboard": "^0.0.3",
-        "@dollymi/machine": "^0.0.3",
-        "@dollymi/planning": "^0.0.3",
-        "@dollymi/product": "^0.0.3",
-        "@dollymi/reactivity": "^0.0.3",
-        "@dollymi/shared": "^0.0.3"
+        "@dollymi/dashboard": "^0.0.4",
+        "@dollymi/machine": "^0.0.4",
+        "@dollymi/planning": "^0.0.4",
+        "@dollymi/product": "^0.0.4",
+        "@dollymi/reactivity": "^0.0.4",
+        "@dollymi/shared": "^0.0.4"
     }
 }
