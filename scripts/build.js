@@ -28,7 +28,7 @@ async function run() {
             return false
         }
         return true
-    }).filter(f => !process.argv[2] ? true : [process.argv[2]].includes(f)))
+    }).filter(f => !process.argv[2] ? !["dollymi"].includes(f) : [process.argv[2]].includes(f)))
 
     console.log(targets)
     await buildAll(targets)

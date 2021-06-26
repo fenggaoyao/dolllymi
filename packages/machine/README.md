@@ -1,2 +1,2 @@
 # DoMachine
-机床管理模块
+Dollymi-机床管理模块
