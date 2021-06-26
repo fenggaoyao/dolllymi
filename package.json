@@ -43,7 +43,7 @@
   },
   "scripts": {
     "plop": "plop",
-    "test": "jest",
+    "test": "jest --coverage --verbose -u",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "cross-env NODE_ENV=development node script/build.js",
