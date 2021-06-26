@@ -1,6 +1,6 @@
 {
     "name": "@dollymi/product",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "do-product component",
     "main": "index.js",
     "module": "dist/product.esm-bundler.js",
