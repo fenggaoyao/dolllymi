@@ -177,8 +177,11 @@ function createConfig(format, output, plugins = []) {
     const shouldEmitDeclarations =
         pkg.types && process.env.TYPES != null && !hasTSChecked
 
+    // console.log("shouldEmitDeclarations",
+    //     shouldEmitDeclarations)
+
     const tsPlugin = ts({
-        check: false, // process.env.NODE_ENV === 'production' && !hasTSChecked
+        check: false, //process.env.NODE_ENV === 'production' && !hasTSChecked,
         tsconfig: path.resolve(__dirname, 'tsconfig.json'),
         cacheRoot: path.resolve(__dirname, 'node_modules/.rts2_cache'),
         tsconfigOverride: {
@@ -291,6 +294,7 @@ function createReplacePlugin(
 
 ) {
     const replacements = {
+        __DEV__: isBundlerESMBuild,
         __VERSION__: `"${masterVersion}"`,
         // If the build is expected to run directly in the browser (global / esm builds)
         __BROWSER__: isBrowserBuild,

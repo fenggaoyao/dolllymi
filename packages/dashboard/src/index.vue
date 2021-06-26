@@ -39,12 +39,10 @@
       江苏省苏州市吴中区吴中大道 1188 号
     </el-descriptions-item>
   </el-descriptions>
-   <do-card>江苏省苏州市吴中区吴中大道</do-card>
 </template>
 
 <script>
   
-  import {DoCard}  from '@dollymi/card'
   import { ElDescriptions,ElDescriptionsItem,ElButton,ElTag} from 'element-plus'
   import 'element-plus/lib/theme-chalk/el-descriptions.css'
   import 'element-plus/lib/theme-chalk/el-descriptions-item.css'
@@ -52,7 +50,7 @@
   import 'element-plus/lib/theme-chalk/el-tag.css'
   export default {
     name: 'DoDashboard',
-    components:{ElDescriptions,ElDescriptionsItem,ElButton,ElTag,DoCard},
+    components:{ElDescriptions,ElDescriptionsItem,ElButton,ElTag},
     data () {
       return {
         size: ''

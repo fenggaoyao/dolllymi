@@ -10,8 +10,6 @@ const install = (app) => {
 }
 
 export {
-    Machine
-}
-export default {
+    Machine,
     install
 }

@@ -17,6 +17,7 @@
     "@storybook/addon-storysource": "^6.3.0",
     "@storybook/vue3": "^6.3.0",
     "@types/jest": "^26.0.10",
+    "@types/puppeteer": "^5.4.3",
     "@vue/babel-plugin-jsx": "^1.0.6",
     "@vue/compiler-sfc": "^3.1.2",
     "@vue/test-utils": "^2.0.0-rc.6",
@@ -29,6 +30,7 @@
     "jest": "^26.6.3",
     "lerna": "^3.22.1",
     "plop": "^2.7.4",
+    "puppeteer": "^10.0.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.52.1",
     "rollup-plugin-css-only": "^3.1.0",
@@ -42,12 +44,13 @@
     "vue-loader": "^16.2.0"
   },
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "plop": "plop",
     "test": "jest --coverage --verbose -u",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build": "cross-env NODE_ENV=development node script/build.js",
-    "build:prod": "cross-env NODE_ENV=production node script/build.js"
+    "build": "cross-env NODE_ENV=development node scripts/build.js",
+    "build:prod": "cross-env NODE_ENV=production node scripts/build.js"
   },
   "dependencies": {
     "vue": "^3.1.2"

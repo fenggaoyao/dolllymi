@@ -13,7 +13,7 @@
     "buildOptions": {
         "name": "DoPlanning",
         "type": "component",
-        "entry": "install.js",
+        "entry": "install.ts",
         "formats": [
             "esm-bundler",
             "esm-browser",
@@ -23,8 +23,13 @@
     },
     "author": "fenggaoyao@qq.com",
     "license": "MIT",
-    "keywords": ["Dollymi"],
+    "keywords": [
+        "Dollymi"
+    ],
     "peerDependencies": {
         "vue": "3.1.2"
+    },
+    "devDependencies": {
+        "codemirror": "^5.62.0"
     }
 }

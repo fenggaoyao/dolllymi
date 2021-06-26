@@ -6,13 +6,11 @@ const components = [
 ]
 const install = (app) => {
     components.forEach(component => {
-        app.component(component.name, component)
+        app.component("DoPlanning", component)
     })
 }
 
 export {
-    Planning
-}
-export default {
+    Planning,
     install
 }

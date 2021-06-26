@@ -3,6 +3,9 @@ const path = require('path')
 const chalk = require('chalk')
 const execa = require('execa')
 
+const buildTypes = true; //args.t || args.types || isRelease
+const sourceMap = false; //args.sourcemap || args.s
+
 
 const env = process.env.NODE_ENV || 'development'
 const devOnly = env === 'development'
@@ -74,7 +77,9 @@ async function build(target) {
             '--environment',
             [
                 `NODE_ENV:${env}`,
-                `TARGET:${target}`
+                `TARGET:${target}`,
+                buildTypes ? `TYPES:true` : ``,
+                sourceMap ? `SOURCE_MAP:true` : ``
             ]
             .filter(Boolean)
             .join(',')

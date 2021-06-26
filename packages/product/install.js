@@ -10,8 +10,6 @@ const install = (app) => {
 }
 
 export {
-    Product
-}
-export default {
+    Product,
     install
 }

@@ -1,5 +1,5 @@
 module.exports = {
-    setupFilesAfterEnv: ['./script/setupJestEnv.ts'],
+    setupFilesAfterEnv: ['./scripts/setupJestEnv.ts'],
     "testMatch": ["**/__tests__/**/*.[jt]s?(x)"],
     "moduleFileExtensions": [
         "ts",

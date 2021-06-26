@@ -1,18 +1,18 @@
 {
-    "name": "dollymi",
+    "name": "@dollymi/reactivity",
     "version": "0.0.0",
-    "description": "dollymi",
+    "description": "do-reactivity",
     "main": "index.js",
-    "module": "dist/dollymi.esm-bundler.js",
-    "types": "dist/dollymi.d.ts",
-    "unpkg": "dist/dollymi.global.js",
-    "jsdelivr": "dist/dollymi.global.js",
+    "module": "dist/reactivity.esm-bundler.js",
+    "types": "dist/reactivity.d.ts",
+    "unpkg": "dist/reactivity.global.js",
+    "jsdelivr": "dist/reactivity.global.js",
     "files": [
         "index.js",
         "dist"
     ],
     "buildOptions": {
-        "name": "Dollymi",
+        "name": "DollymiReactivity",
         "type": "library",
         "entry": "src/index.ts",
         "formats": [
@@ -29,11 +29,6 @@
         "access": "public"
     },
     "dependencies": {
-        "@dollymi/shared": "^0.0.0",
-        "@dollymi/dashboard": "^0.0.0",
-        "@dollymi/machine": "^0.0.0",
-        "@dollymi/planning": "^0.0.0",
-        "@dollymi/product": "^0.0.0",
-        "@dollymi/reactivity": "^0.0.0"
+        "@dollymi/shared": "^0.0.0"
     }
 }
